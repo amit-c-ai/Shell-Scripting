@@ -41,8 +41,8 @@
    Listing Directories and Files
 
     $ ls		      	   //List directories and file in present directory
-    $ ls -l		      //use a long listing format
-    $ ls -G		      //in a long listing, don't print group names
+    $ ls -l		         //use a long listing format
+    $ ls -G		       //in a long listing, don't print group names
     $ ls --help		   //get a list of all such commands
 
    Who are you?
@@ -57,7 +57,7 @@
 
    System Shutdown
 
-    $ halt  		//brings the system down immediately
+    $ halt  		   //brings the system down immediately
     $ init 0	   	   //Powers off the system using predefined scripts to synchronize and clean up the system prior to shutting down
     $ init 6		   //Reboots the system by shutting it down completely and then restarting it
     $ poweroff 		   //Shuts down the system by powering off
