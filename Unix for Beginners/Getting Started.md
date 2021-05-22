@@ -41,8 +41,8 @@
    Listing Directories and Files
 
     $ ls		      	   //List directories and file in present directory
-    $ ls -l		            //use a long listing format
-    $ ls -G		          //in a long listing, don't print group names
+    $ ls -l		           //use a long listing format
+    $ ls -G		           //in a long listing, don't print group names
     $ ls --help		   //get a list of all such commands
 
    Who are you?
