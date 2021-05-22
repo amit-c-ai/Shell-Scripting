@@ -33,7 +33,7 @@
    Change Password
 
     **$ passwd**
-    Changing password for amrood
+    Changing password for itachi
     (current) Unix password:******
     New UNIX password:*******
     Retype new UNIX password:*******
