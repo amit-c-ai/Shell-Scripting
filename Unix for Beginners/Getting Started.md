@@ -40,10 +40,10 @@
 
    Listing Directories and Files
 
-    $ ls		      	//List directories and file in present directory
-    $ ls -l			   //use a long listing format
-    $ ls -G			   //in a long listing, don't print group names
-    $ ls --help		//get a list of all such commands
+    $ ls		      	   //List directories and file in present directory
+    $ ls -l		      //use a long listing format
+    $ ls -G		      //in a long listing, don't print group names
+    $ ls --help		   //get a list of all such commands
 
    Who are you?
 
@@ -53,14 +53,14 @@
 
     $ users			   //list of users logged in to this system same time
     $ who			   //same details with time of login
-    $ w		      	//same details with some more information
+    $ w		      	   //same details with some more information
 
    System Shutdown
 
-    $ halt  			//brings the system down immediately
-    $ init 0	   	//Powers off the system using predefined scripts to synchronize and clean up the system prior to shutting down
+    $ halt  		//brings the system down immediately
+    $ init 0	   	   //Powers off the system using predefined scripts to synchronize and clean up the system prior to shutting down
     $ init 6		   //Reboots the system by shutting it down completely and then restarting it
-    $ poweroff 		//Shuts down the system by powering off
-    $ reboot	   	//reboots the system
+    $ poweroff 		   //Shuts down the system by powering off
+    $ reboot	   	   //reboots the system
     $ shutdown		   //shuts down the system
 
