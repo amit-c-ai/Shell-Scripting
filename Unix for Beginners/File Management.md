@@ -3,14 +3,14 @@
    ### In Unix, there are 3 types of files :-
 
     Ordinary-Files: An ordinary file is a file on the system that contains data, text, or program
-		    instructions.
+		    	instructions.
 
     Directories:    Directories store both special and ordinary files. For users familiar with
-		    Windows or Mac OS, Unix directories are equivalent to folders.
+		    	Windows or Mac OS, Unix directories are equivalent to folders.
 
     Special-Files:  Some special files provide access to hardware such as hard drives, CD-ROM drives,
-		    modems, and Ethernet adapters. Other special files are similar to aliases or
-		    shortcuts and enable you to access a single file using different names.
+		    	modems, and Ethernet adapters. Other special files are similar to aliases or
+		    	shortcuts and enable you to access a single file using different names.
 
    Listing Files
 
