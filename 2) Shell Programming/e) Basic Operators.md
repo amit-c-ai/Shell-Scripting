@@ -44,11 +44,11 @@
 
    | Operator | Description | Example |
    |---|---|---|
-   | +(Addition) | Adds values on either side of operator | `expr $a + $b` will give 30 |
-   | -(Subtraction) | Subtract 2nd value from 1st | `expr $a - $b` will give -10 |
-   | *(Multiplication) | Multiply values on either side of operator | `expr $a \* $b` will give 200 |
-   | /(Division) | Divide 1st value by 2nd value | `expr $a / $b` will give 0 |
-   | %(Modulus) | Returns remainder | `expr $b % $a` will give 0 |
+   | +(Addition) | Adds values on either side of operator | \`expr $a + $b` will give 30 |
+   | -(Subtraction) | Subtract 2nd value from 1st | \`expr $a - $b` will give -10 |
+   | *(Multiplication) | Multiply values on either side of operator | \`expr $a \* $b` will give 200 |
+   | /(Division) | Divide 1st value by 2nd value | \`expr $a / $b` will give 0 |
+   | %(Modulus) | Returns remainder | \`expr $b % $a` will give 0 |
    | =(Assignment) | Assigns right operand in left operand | a = $b will assign value of b to a |
    | ==(Equality) | Compares two numbers, if both are same then returns true. | [ $a == $b ] will return false |
    | !=(Not Equality) | Compares two numbers, if both are not same then returns true. | [ $a != $b ] will return true |
@@ -127,9 +127,9 @@
    | -u file | Checks if file has its Set User ID (SUID) bit set; if yes, then the condition becomes true. | [ -u $file ] is false. |
    | -r file | Checks if file is readable; if yes, then the condition becomes true. | [ -r $file ] is true. |
    | -w file | Checks if file is writable; if yes, then the condition becomes true. | [ -w $file ] is true. |
--x file	Checks if file is executable; if yes, then the condition becomes true.	[ -x $file ] is true.
--s file	Checks if file has size greater than 0; if yes, then condition becomes true.	[ -s $file ] is true.
--e file	Checks if file exists; is true even if file is a directory but exists.	[ -e $file ] is true.
+   | -x file | Checks if file is executable; if yes, then the condition becomes true. | [ -x $file ] is true. |
+   | -s file | Checks if file has size greater than 0; if yes, then condition becomes true. | [ -s $file ] is true. |
+   | -e file | Checks if file exists; is true even if file is a directory but exists. | [ -e $file ] is true. |
 
 
 
